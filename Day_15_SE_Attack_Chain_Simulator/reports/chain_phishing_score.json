@@ -1,0 +1,11 @@
+{
+  "module": "Phishing URL Scoring",
+  "url": "example.com",
+  "score": 25,
+  "indicators": [
+    "URL does not use HTTPS"
+  ],
+  "warning": "This simple heuristic is not a verdict. A score of zero does not guarantee safety.",
+  "generated_at_utc": "2026-10-23T06:21:11.850832+00:00",
+  "simulation": true
+}

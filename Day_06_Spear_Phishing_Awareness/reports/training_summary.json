@@ -1,0 +1,25 @@
+{
+  "project": "Day 6 - Spear Phishing Awareness Training",
+  "generated_at_utc": "2026-10-19T08:06:04.958484+00:00",
+  "scope": "Fictional local lab only",
+  "scenarios": [
+    {
+      "scenario": "IT Support",
+      "file": "it_support.txt",
+      "purpose": "Security-awareness training",
+      "recipient": "alex@example.test"
+    },
+    {
+      "scenario": "Banking",
+      "file": "banking.txt",
+      "purpose": "Security-awareness training",
+      "recipient": "alex@example.test"
+    },
+    {
+      "scenario": "Government",
+      "file": "government.txt",
+      "purpose": "Security-awareness training",
+      "recipient": "alex@example.test"
+    }
+  ]
+}

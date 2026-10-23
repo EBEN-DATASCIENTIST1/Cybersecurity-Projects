@@ -1,0 +1,17 @@
+=============================================
+OSINT REPORT: youTube.com
+=============================================
+
+[WHOIS]
+Registrar: MarkMonitor, Inc.
+Creation date: 2005-02-15 05:13:12+00:00
+Expiry date: [datetime.datetime(2027, 2, 15, 5, 13, 12, tzinfo=tzoffset('UTC', 0)), datetime.datetime(2027, 2, 15, 0, 0, tzinfo=tzoffset('UTC', 0))]
+
+[DNS]
+IP address: 103.75.249.19
+
+[IP GEOLOCATION]
+Country: India
+Region: Maharashtra
+City: Khadki
+ISP: Vodafone Mobile Services Ltd

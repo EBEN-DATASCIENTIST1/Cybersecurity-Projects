@@ -1,0 +1,69 @@
+# Day 6 — Spear Phishing Awareness Analysis
+
+## Objective
+
+Understand how spear phishing uses personalized messages and psychological manipulation to influence a recipient's decisions. This experiment uses fictional scenarios for defensive security awareness.
+
+## 1. IT Support Scenario
+
+**Technique demonstrated:** Authority and fear.
+
+**Attacker perspective:** A malicious sender may impersonate IT support and claim that an account has unusual activity. The message may pressure the recipient to respond quickly.
+
+**Defender perspective:** Verify unexpected IT requests through the official helpdesk. Never disclose passwords or one-time authentication codes. Report suspicious messages to the security team.
+
+## 2. Banking Scenario
+
+**Technique demonstrated:** Urgency and fear of financial loss.
+
+**Attacker perspective:** A malicious sender may claim that a bank account requires immediate verification to pressure a recipient into acting without checking the message.
+
+**Defender perspective:** Do not follow unfamiliar links in unexpected banking messages. Open the official banking application or independently verify the bank's contact details.
+
+## 3. Government Scenario
+
+**Technique demonstrated:** Authority and fear of penalties.
+
+**Attacker perspective:** A malicious sender may imitate an official notice and use threats of penalties to influence a recipient's decisions.
+
+**Defender perspective:** Verify notices through the relevant department's official website or published contact details. Do not make payments or disclose sensitive information merely because a message claims to be urgent.
+
+## Email Authentication: SPF, DKIM, and DMARC
+
+**SPF — Sender Policy Framework**
+
+SPF allows a domain owner to specify which mail servers are authorized to send email for that domain. Receiving systems can check the sender's IP address against the published SPF policy.
+
+**DKIM — DomainKeys Identified Mail**
+
+DKIM uses a digital signature to help a receiving system verify that signed email content and selected headers have not been altered and that the signature corresponds to a domain's published key.
+
+**DMARC — Domain-based Message Authentication, Reporting, and Conformance**
+
+DMARC builds on SPF and DKIM. It checks alignment between the visible From domain and the domains authenticated by SPF or DKIM. Domain owners can publish policies requesting that receiving systems take specified actions on messages that fail DMARC evaluation.
+
+**Important limitation:** SPF, DKIM, and DMARC help protect against certain forms of domain spoofing. They do not guarantee that a message is safe, and they cannot prevent every form of impersonation or phishing.
+
+## Experiment Results
+
+The Python program successfully generated three fictional awareness-training examples:
+
+- IT Support
+- Banking
+- Government
+
+Each example includes a scenario, psychological technique, warning signs, safe response, and defensive lesson.
+
+The program also generated a JSON summary containing the scenario names, output filenames, lab scope, and UTC generation timestamp.
+
+## Ethical Scope
+
+- All identities and recipient addresses used in this experiment are fictional.
+- The reserved `.test` domain is used for the training example.
+- No email messages were sent.
+- No real users or organizations were targeted.
+- No credentials or personal information were collected.
+
+## Conclusion
+
+The experiment demonstrates how common social engineering techniques can be recognized and countered. Independent verification, careful inspection of unexpected messages, and appropriate email-authentication controls help reduce phishing risk.

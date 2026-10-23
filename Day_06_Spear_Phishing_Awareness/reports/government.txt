@@ -1,0 +1,29 @@
+SECURITY AWARENESS TRAINING EXAMPLE
+=====================================
+
+To: alex@example.test
+Subject: Training Example: Suspicious Official Notice
+
+Hello Alex Example,
+
+SCENARIO
+A message claims that an official document requires immediate attention.
+
+PSYCHOLOGICAL TECHNIQUE
+Authority and fear of penalties
+
+WARNING SIGNS
+- Threats of penalties
+- Pressure to make immediate payments
+- Requests for sensitive personal information
+
+SAFE RESPONSE
+Verify the notice through the relevant department's official website or published contact details.
+
+DEFENSIVE LESSON
+Do not disclose passwords or one-time authentication codes.
+Do not act under pressure. Verify unexpected requests using
+an independent, official communication channel.
+
+This is a fictional awareness-training example.
+Do not send it to real recipients.

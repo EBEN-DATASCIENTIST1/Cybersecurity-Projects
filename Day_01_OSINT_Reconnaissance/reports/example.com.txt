@@ -1,0 +1,17 @@
+=============================================
+OSINT REPORT: example.com
+=============================================
+
+[WHOIS]
+Registrar: RESERVED-Internet Assigned Numbers Authority
+Creation date: 1995-08-14 04:00:00+00:00
+Expiry date: 2027-08-13 04:00:00+00:00
+
+[DNS]
+IP address: 104.20.23.154
+
+[IP GEOLOCATION]
+Country: Canada
+Region: Ontario
+City: Toronto
+ISP: Cloudflare, Inc.

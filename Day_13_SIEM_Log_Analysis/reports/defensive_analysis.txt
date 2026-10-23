@@ -1,0 +1,44 @@
+DAY 13 — SIEM LOG ANALYSIS FOR SOCIAL ENGINEERING DETECTION
+
+**1. Objective**
+
+Build a Python log parser that identifies suspicious authentication patterns and email-rule changes in sample security logs.
+
+**2. Implementation**
+
+The analyzer uses regular expressions to parse timestamps, event types, usernames, IP addresses, and optional email-rule names. It counts failed login events and generates JSON alerts.
+
+**3. Results**
+
+- Parsed events: 8
+- Failed logins: 4
+- Successful logins: 2
+- Email rules created: 2
+- Alerts generated: 4
+
+The alerts included repeated failed logins for the admin account, repeated failures from a documentation-range IP address, and two email-rule creation events.
+
+**4. Attacker Perspective**
+
+Social engineers may obtain credentials through phishing and then attempt account access. After gaining access, an attacker may create email-forwarding rules to collect messages or manipulate inbox contents.
+
+**5. Defender Perspective**
+
+Security teams should correlate authentication events, review unusual login patterns, and investigate unexpected email-rule changes. Alerts should be checked against approved administrative activity and the relevant account's normal behavior.
+
+**6. Recommendations**
+
+- Enable multi-factor authentication.
+- Alert on repeated failed logins.
+- Review unexpected forwarding and inbox rules.
+- Correlate events across identity, email, VPN, and endpoint logs.
+- Preserve relevant logs and investigate suspicious activity promptly.
+- Tune alert thresholds to reduce false positives.
+
+**7. Limitations**
+
+The analyzer uses simple thresholds and fictional logs. It does not correlate events across time windows, validate IP reputation, or establish malicious intent. It is an educational SIEM-style parser, not a production monitoring platform.
+
+**8. Ethical Scope**
+
+Only local sample logs were analyzed. No live accounts, mailboxes, or external systems were accessed.

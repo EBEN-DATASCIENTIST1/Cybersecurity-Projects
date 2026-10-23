@@ -1,0 +1,23 @@
+
+=== SOCIAL ENGINEERING AWARENESS SCENARIO ===
+
+Organization: IT Support
+Scenario: IT Support
+Pretext: A caller claims there is an account problem.
+
+[SIMULATION OPENER]
+A caller claims to be from IT support and reports unusual account activity.
+
+[PSYCHOLOGICAL TRIGGER]
+Authority and fear of losing access to workplace systems.
+
+[WARNING SIGN]
+The caller asks for a password or authentication code.
+
+[SAFE RESPONSE]
+Contact IT using the official helpdesk channel.
+
+[TRAINING LESSON]
+Pause before acting. Never disclose passwords or
+one-time authentication codes. Verify unexpected
+requests through an independent official channel.

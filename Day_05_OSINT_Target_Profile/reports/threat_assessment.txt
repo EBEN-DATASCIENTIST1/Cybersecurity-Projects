@@ -1,0 +1,16 @@
+GITHUB PUBLIC EXPOSURE ASSESSMENT
+========================================
+Profile: EBEN-DATASCIENTIST1
+
+Findings:
+- 8 recent public repositories were listed. Review them for accidentally committed secrets.
+
+Recommended defensive actions:
+- Review public profile fields and remove unnecessary details.
+- Inspect repositories for accidentally exposed credentials.
+- Revoke and rotate any exposed secrets immediately.
+- Enable two-factor authentication.
+- Review repository visibility and access permissions.
+
+Limitations:
+This is a basic exposure review, not a verified security audit.

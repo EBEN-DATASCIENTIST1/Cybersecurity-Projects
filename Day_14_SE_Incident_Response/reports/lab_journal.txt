@@ -1,0 +1,32 @@
+DAY 14 — LAB JOURNAL
+
+**Project:** Social Engineering Incident Response Plan
+
+**Date:** 23 October 2026
+
+**Environment:** Windows, PowerShell, Python
+
+**Scope:** Local incident-response simulation
+
+**Objective:** Generate response recommendations and a structured JSON incident report.
+
+**Activities Performed**
+
+1. Created the Day 14 project structure.
+2. Implemented incident-type and severity validation.
+3. Defined response recommendations for four incident categories.
+4. Ran a fictional high-severity phishing incident.
+5. Generated `reports/incident_report.json`.
+6. Prepared an incident-response playbook.
+
+**Results**
+
+The program processed incident SIM-014 and generated five recommended actions. The JSON report included the incident details, UTC timestamp, simulation mode, and a warning that no real actions were performed.
+
+**Ethical and Safety Notes**
+
+The script is simulation-only. It does not lock accounts, revoke sessions, quarantine messages, or modify devices.
+
+**Conclusion**
+
+The project demonstrates basic incident-response workflow automation and structured reporting. Real response actions require authorization, suitable integrations, and organizational procedures.

@@ -1,0 +1,40 @@
+DAY 14 — SOCIAL ENGINEERING INCIDENT RESPONSE
+
+**1. Objective**
+
+Develop a Python script that generates a structured response plan for simulated social engineering incidents.
+
+**2. Incident Types Supported**
+
+- Phishing
+- Credential compromise
+- Suspicious email-rule creation
+- USB-related incidents
+
+**3. Implementation**
+
+The script validates incident type and severity, generates recommended response actions, timestamps the report in UTC, and saves it as JSON.
+
+**4. Test Results**
+
+The simulated incident SIM-014 was classified as a HIGH-severity phishing incident. The program recommended escalation, evidence preservation, reporting, safe analysis of links and attachments, and consideration of email quarantine.
+
+**5. Incident Response Lifecycle**
+
+The playbook covers preparation, identification, containment, eradication, recovery, and lessons learned.
+
+**6. Limitations**
+
+The program generates recommendations only. It does not connect to identity providers, mail systems, endpoint tools, or security platforms. It does not verify that an incident is genuine or execute containment actions.
+
+**7. Recommendations**
+
+- Preserve evidence before making changes when practical.
+- Escalate incidents according to severity and organizational policy.
+- Use authorized procedures for account restrictions and email quarantine.
+- Document actions and timestamps.
+- Validate recovery and review lessons learned.
+
+**8. Ethical Scope**
+
+The project uses fictional incident data. No real accounts, emails, devices, or security systems are modified.

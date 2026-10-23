@@ -1,0 +1,32 @@
+DAY 13 — LAB JOURNAL
+
+**Project:** SIEM Log Analysis for Social Engineering Attack Detection
+
+**Date:** 23 October 2026
+
+**Environment:** Windows, PowerShell, Python
+
+**Scope:** Fictional local sample logs
+
+**Objective:** Parse security events and identify suspicious login and email-rule activity.
+
+**Activities Performed**
+
+1. Created the Day 13 project structure.
+2. Prepared sample security logs.
+3. Implemented the regular-expression log parser.
+4. Corrected the parser to support optional IP and rule fields.
+5. Ran the analyzer and generated a JSON report.
+6. Verified event counts and alerts.
+
+**Results**
+
+The analyzer parsed eight events: four failed logins, two successful logins, and two email-rule creation events. It generated four alerts covering repeated login failures and email-rule changes.
+
+**Ethical and Safety Notes**
+
+The project uses fictional sample data and performs no live monitoring or external access.
+
+**Conclusion**
+
+The experiment demonstrated basic SIEM-style log parsing and alert generation. Production monitoring would require stronger event validation, time-window correlation, alert tuning, and investigation procedures.

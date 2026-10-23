@@ -1,0 +1,12 @@
+{
+  "total_visits": 1,
+  "unique_paths": 1,
+  "path_counts": {
+    "/bait-download": 1
+  },
+  "user_agent_counts": {
+    "Mozilla/5.0 (Windows NT; Windows NT 10.0; fr-FR) WindowsPowerShell/5.1.26100.9711": 1
+  },
+  "scope": "Local honeypot simulation",
+  "limitation": "A recorded visit does not prove malicious intent."
+}

@@ -1,0 +1,16 @@
+{
+  "module": "Profile Exposure Review",
+  "profile": {
+    "username": "training_user",
+    "account_age_days": 7,
+    "followers": 2,
+    "following": 900,
+    "no_profile_pic": true,
+    "posts": 1,
+    "default_bio": true
+  },
+  "heuristic_score": 100,
+  "warning": "A high score is not proof that a profile is fake.",
+  "generated_at_utc": "2026-10-23T06:20:53.826524+00:00",
+  "simulation": true
+}

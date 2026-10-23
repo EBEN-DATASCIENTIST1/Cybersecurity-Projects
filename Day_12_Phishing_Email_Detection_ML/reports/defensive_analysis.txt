@@ -1,0 +1,56 @@
+DAY 12 — PHISHING EMAIL DETECTION WITH MACHINE LEARNING
+
+**1. Objective**
+
+Build a Naive Bayes text classifier that distinguishes phishing emails from legitimate messages using labeled examples.
+
+**2. Model and Features**
+
+- CountVectorizer converts email text into word-count features.
+- Multinomial Naive Bayes performs binary classification.
+- A scikit-learn Pipeline connects preprocessing and classification.
+- A stratified train/test split evaluates performance on held-out examples.
+
+**3. Dataset**
+
+The dataset contains 50 fictional email examples: 25 phishing and 25 legitimate. The model was trained on 35 examples and evaluated on 15 examples.
+
+**4. Results**
+
+- Accuracy: 93.33%
+- Legitimate precision: 0.89
+- Legitimate recall: 1.00
+- Phishing precision: 1.00
+- Phishing recall: 0.86
+- Phishing F1-score: 0.92
+
+Confusion matrix, with actual classes as rows and predicted classes as columns:
+
+[[8, 0],
+ [1, 6]]
+
+The model correctly classified eight legitimate emails and six phishing emails. It missed one phishing email and produced no false positives on this test split.
+
+**5. Attacker Perspective**
+
+Phishing messages may use urgency, account threats, financial requests, impersonation, or credential-verification language to persuade recipients to act without checking the source.
+
+**6. Defender Perspective**
+
+Users should verify unexpected requests through trusted channels, avoid suspicious links and attachments, and report suspected phishing. Email security controls should combine content analysis with sender authentication, URL reputation, attachment inspection, and user reporting.
+
+**7. Limitations**
+
+The dataset is small, fictional, and relatively simple. Results may change with different train/test splits and may not generalize to real emails. Word-count features do not fully capture context, sender identity, URL behavior, or malicious attachments. Accuracy alone is not sufficient to evaluate an operational phishing filter.
+
+**8. Recommendations**
+
+- Evaluate on a larger, diverse, representative, labeled dataset.
+- Use cross-validation and monitor false negatives.
+- Add appropriate sender, URL, and attachment signals.
+- Review model performance as phishing techniques evolve.
+- Avoid sending confidential email content to unapproved external services.
+
+**9. Ethical Scope**
+
+This project uses fictional training examples. It does not send phishing emails, collect credentials, or target real users.

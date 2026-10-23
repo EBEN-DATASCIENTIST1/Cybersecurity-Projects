@@ -1,0 +1,36 @@
+{
+  "total_parsed_events": 8,
+  "failed_logins": 4,
+  "successful_logins": 2,
+  "email_rules_created": 2,
+  "alerts": [
+    {
+      "type": "EMAIL_RULE_CREATED",
+      "severity": "HIGH",
+      "user": "riya",
+      "rule": "forward_all",
+      "message": "Review this email rule for unauthorized forwarding or inbox manipulation."
+    },
+    {
+      "type": "EMAIL_RULE_CREATED",
+      "severity": "HIGH",
+      "user": "admin",
+      "rule": "delete_inbox",
+      "message": "Review this email rule for unauthorized forwarding or inbox manipulation."
+    },
+    {
+      "type": "REPEATED_FAILED_LOGINS",
+      "severity": "HIGH",
+      "user": "admin",
+      "count": 3,
+      "message": "Three or more failed login events detected for this user."
+    },
+    {
+      "type": "REPEATED_FAILED_LOGINS_FROM_IP",
+      "severity": "HIGH",
+      "ip": "203.0.113.25",
+      "count": 3,
+      "message": "Three or more failed login events detected from this IP address."
+    }
+  ]
+}

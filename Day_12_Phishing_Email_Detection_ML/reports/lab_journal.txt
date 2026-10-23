@@ -1,0 +1,40 @@
+DAY 12 — LAB JOURNAL
+
+**Project:** Phishing Email Detection with Machine Learning
+
+**Date:** 22 October 2026
+
+**Environment:** Windows, PowerShell, Python, pandas, scikit-learn
+
+**Scope:** Fictional labeled email dataset
+
+**Objective:** Train and evaluate a Naive Bayes classifier for phishing email detection.
+
+**Activities Performed**
+
+1. Created the Day 12 project structure.
+2. Installed the required Python libraries.
+3. Created a labeled dataset of 20 fictional emails.
+4. Implemented a CountVectorizer and MultinomialNB pipeline.
+5. Evaluated the initial model.
+6. Expanded the dataset to 50 fictional emails.
+7. Re-trained and evaluated the classifier.
+8. Saved the results to `reports/model_report.txt`.
+
+**Final Results**
+
+- Dataset size: 50
+- Training samples: 35
+- Testing samples: 15
+- Accuracy: 93.33%
+- Correct predictions: 14 of 15
+- Missed phishing examples: 1
+- False positives: 0
+
+**Ethical and Safety Notes**
+
+All email examples are fictional. No real inboxes were accessed, and no messages were sent to real users.
+
+**Conclusion**
+
+The experiment demonstrates a basic machine-learning pipeline for phishing classification. Larger and more representative datasets are necessary before drawing conclusions about real-world effectiveness.

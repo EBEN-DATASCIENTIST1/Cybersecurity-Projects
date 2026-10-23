@@ -1,0 +1,40 @@
+DAY 8 — USB DROP ATTACK SIMULATION
+
+**1. Objective**
+
+To demonstrate how a program executed from an untrusted USB device could collect basic system information and to identify defensive measures against USB-based attacks.
+
+**2. Attacker Perspective**
+
+An attacker may leave a USB device in a public or workplace location, hoping someone will connect it to a computer and execute a malicious file. A program could then attempt to collect system information or perform unauthorized actions.
+
+**3. Defender Perspective**
+
+Users should never connect unknown USB devices to personal or organizational computers. Organizations should enforce device-control policies, disable unnecessary AutoRun behavior, use endpoint protection, and provide security-awareness training.
+
+**4. Simulation Implementation**
+
+The Python script records the execution timestamp, hostname, operating system, OS version, current username, and working directory. It saves the information as a local JSON report.
+
+The simulation does not copy files, collect credentials, establish network connections, or configure automatic execution.
+
+**5. Results**
+
+The script executed successfully and created `reports/recon_log.json`. The expected system-information fields were recorded, and the report indicated that the activity was a simulation with no network activity.
+
+**6. Defensive Recommendations**
+
+- Do not connect unknown or unattended USB devices.
+- Disable AutoRun and AutoPlay where appropriate.
+- Restrict USB storage through organizational device-control policies.
+- Use endpoint detection and response (EDR) and antivirus protection.
+- Apply least-privilege access and keep operating systems updated.
+- Train users to report suspicious USB devices to their IT or security team.
+
+**7. Limitations**
+
+This project demonstrates basic local information collection. It does not simulate every capability of a real USB attack, and the absence of network activity in this script does not guarantee that an unknown USB device is safe.
+
+**8. Ethical Scope**
+
+The script was executed manually on the developer's own computer. No files were copied, no credentials were collected, and no external systems were targeted.

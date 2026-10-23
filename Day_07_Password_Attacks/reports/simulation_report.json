@@ -1,0 +1,27 @@
+{
+  "project": "Day 7 - Password Security Lab",
+  "generated_at_utc": "2026-10-22T13:05:27.653446+00:00",
+  "scope": "Localhost only",
+  "attempts": [
+    {
+      "attempt": 1,
+      "http_status": 401,
+      "outcome": "Rejected"
+    },
+    {
+      "attempt": 2,
+      "http_status": 401,
+      "outcome": "Rejected"
+    },
+    {
+      "attempt": 3,
+      "http_status": 401,
+      "outcome": "Rejected"
+    },
+    {
+      "attempt": 4,
+      "http_status": 200,
+      "outcome": "Lab login accepted"
+    }
+  ]
+}

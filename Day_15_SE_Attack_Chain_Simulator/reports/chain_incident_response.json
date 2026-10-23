@@ -1,0 +1,20 @@
+{
+  "module": "Incident Response Simulation",
+  "incident": {
+    "incident_id": "SIM-015",
+    "type": "phishing",
+    "severity": "HIGH",
+    "user": "training-user@example.test"
+  },
+  "actions": [
+    "Escalate to the security incident response team",
+    "Preserve the original message and relevant logs",
+    "Review links and attachments safely",
+    "Consider email quarantine through approved procedures",
+    "Monitor the affected account for suspicious activity"
+  ],
+  "mode": "SIMULATION_ONLY",
+  "warning": "No accounts or systems were modified.",
+  "generated_at_utc": "2026-10-23T06:21:40.760261+00:00",
+  "simulation": true
+}

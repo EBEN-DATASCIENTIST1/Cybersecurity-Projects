@@ -1,0 +1,22 @@
+DAY 12 — PHISHING EMAIL CLASSIFIER
+
+Dataset size: 50
+Training samples: 35
+Testing samples: 15
+Accuracy: 93.33%
+
+Confusion matrix (actual rows, predicted columns):
+[[8 0]
+ [1 6]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+  Legitimate       0.89      1.00      0.94         8
+    Phishing       1.00      0.86      0.92         7
+
+    accuracy                           0.93        15
+   macro avg       0.94      0.93      0.93        15
+weighted avg       0.94      0.93      0.93        15
+
+Note: This small fictional dataset is for learning only.

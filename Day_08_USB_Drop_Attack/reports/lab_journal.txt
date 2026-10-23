@@ -1,0 +1,32 @@
+DAY 8 — LAB JOURNAL
+
+**Project:** USB Drop Attack Simulation
+
+**Date:** 22 October 2026
+
+**Environment:** Windows, PowerShell, Python
+
+**Scope:** Local computer only
+
+**Objective:** Simulate benign system-information collection and examine defenses against USB drop attacks.
+
+**Activities Performed**
+
+1. Created the Day 8 project structure.
+2. Implemented a Python awareness simulator.
+3. Executed the script manually.
+4. Generated `reports/recon_log.json`.
+5. Verified the JSON output.
+6. Prepared a defensive analysis.
+
+**Results**
+
+The script completed successfully. The report recorded the UTC timestamp, hostname, operating system, OS version, username, and working directory. The simulation flag was true, and network activity was false.
+
+**Ethical and Safety Notes**
+
+The program ran manually on the local computer. It did not configure AutoRun, copy files, collect credentials, or contact external systems. The generated report contains local identifying information and should be anonymized before public sharing.
+
+**Conclusion**
+
+The experiment demonstrated that a program can record basic system information when executed. USB device restrictions, endpoint protection, disabled AutoRun, and security-awareness training help reduce the risk of USB-based attacks.

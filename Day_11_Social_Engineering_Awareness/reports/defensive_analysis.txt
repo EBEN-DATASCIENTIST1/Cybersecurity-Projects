@@ -1,0 +1,49 @@
+DAY 11 — SOCIAL ENGINEERING AWARENESS TRAINING
+
+**1. Objective**
+
+To build an interactive Python quiz that teaches users to recognize social engineering tactics and choose safer responses.
+
+**2. Topics Covered**
+
+- Phishing links and password requests.
+- Unknown USB devices and baiting.
+- Unexpected requests for one-time authentication codes.
+- Urgency and fear tactics.
+- Suspicious attachments.
+- Physical tailgating.
+- Fake social media giveaways.
+- Gift-card and payment scams.
+- Untrusted browser extensions.
+- Response to suspected credential compromise.
+
+**3. Implementation**
+
+The quiz presents ten scenario-based questions with three choices each. It validates answers, provides immediate feedback, displays explanations, calculates a score and percentage, and saves results as JSON.
+
+**4. Test Results**
+
+The test run scored 5 out of 10, equivalent to 50%. Five answers were correct and five were incorrect. The application completed all questions and saved `reports/quiz_results.json`.
+
+**5. Defensive Recommendations**
+
+- Verify unexpected requests through trusted channels.
+- Never disclose passwords or one-time authentication codes.
+- Do not connect unknown USB devices.
+- Treat urgent financial requests with caution.
+- Verify unexpected attachments and downloads before opening them.
+- Follow physical access-control procedures.
+- Report suspected phishing and impersonation promptly.
+- Change compromised passwords through the legitimate service and review account security.
+
+**6. Limitations**
+
+This quiz is a basic educational tool. A score does not fully measure a person's security awareness, and the questions do not cover every possible social engineering scenario.
+
+**7. Ethical Scope**
+
+The exercise uses fictional scenarios and does not send real phishing messages, collect credentials, or target real users.
+
+**8. Conclusion**
+
+The quiz demonstrates how scenario-based training, immediate feedback, and score tracking can reinforce safer responses to social engineering threats.

@@ -1,0 +1,47 @@
+[
+  {
+    "label": "Sample A",
+    "account_age_days": 7,
+    "followers": 2,
+    "following": 900,
+    "no_profile_pic": true,
+    "posts": 1,
+    "default_bio": true
+  },
+  {
+    "label": "Sample B",
+    "account_age_days": 1200,
+    "followers": 4500,
+    "following": 320,
+    "no_profile_pic": false,
+    "posts": 870,
+    "default_bio": false
+  },
+  {
+    "label": "Sample C",
+    "account_age_days": 20,
+    "followers": 50,
+    "following": 600,
+    "no_profile_pic": false,
+    "posts": 3,
+    "default_bio": true
+  },
+  {
+    "label": "Sample D",
+    "account_age_days": 60,
+    "followers": 100,
+    "following": 500,
+    "no_profile_pic": true,
+    "posts": 12,
+    "default_bio": false
+  },
+  {
+    "label": "Sample E",
+    "account_age_days": 800,
+    "followers": 200,
+    "following": 150,
+    "no_profile_pic": false,
+    "posts": 2,
+    "default_bio": true
+  }
+]

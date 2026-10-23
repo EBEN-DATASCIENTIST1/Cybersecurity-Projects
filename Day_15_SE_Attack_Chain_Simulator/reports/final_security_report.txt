@@ -1,0 +1,63 @@
+# DAY 15 — FINAL SECURITY REPORT
+
+## Project
+
+Social Engineering Attack Chain Simulator
+
+## 1. Objective
+
+Integrate security-awareness and analysis components into a single Python command-line tool for ethical, local cybersecurity training.
+
+## 2. Modules Implemented
+
+**Passive OSINT:** Resolves a user-supplied domain to IP addresses. The module does not perform port scanning or exploitation.
+
+**Profile Exposure Review:** Evaluates fictional profile attributes using simple heuristics.
+
+**Phishing URL Scoring:** Assigns a score based on basic URL indicators, including missing HTTPS, sensitive-action keywords, the @ symbol, and punycode.
+
+**Awareness Email Template:** Generates fictional scenario-based awareness guidance without sending email.
+
+**Incident Response Simulation:** Generates recommended actions for a fictional high-severity phishing incident.
+
+## 3. Test Results
+
+All five modules were exercised through the command-line menu.
+
+- OSINT successfully resolved `example.com` and saved a JSON report.
+- Profile analysis generated a fictional profile-review report.
+- URL scoring generated a report with indicators.
+- The awareness module generated a banking-awareness example.
+- Incident response generated a simulated response plan.
+- The application returned to the menu and exited correctly.
+
+## 4. Generated Reports
+
+- `reports/chain_osint.json`
+- `reports/chain_profile_review.json`
+- `reports/chain_phishing_score.json`
+- `reports/chain_awareness.json`
+- `reports/chain_incident_response.json`
+
+## 5. Security and Ethical Considerations
+
+The application does not send phishing emails, collect credentials, exploit systems, or execute real containment actions. DNS resolution is the only network activity in the OSINT module and should be limited to domains the operator is authorized to assess.
+
+The profile and URL scores are basic heuristics. They do not establish malicious intent or guarantee that a profile or URL is safe.
+
+## 6. Limitations
+
+The components are integrated as demonstrations rather than a production security platform. The OSINT module performs only DNS resolution. Profile analysis uses fictional data. URL scoring is not a trained machine-learning model. Incident response creates recommendations but does not connect to real security systems.
+
+## 7. Future Improvements
+
+- Integrate the existing authorized OSINT scanner through a defined interface.
+- Add URL normalization and stronger parsing.
+- Add unit tests for input validation and scoring.
+- Improve report consistency and error handling.
+- Add structured event logging and configuration.
+- Evaluate detection quality against a larger, labeled dataset.
+
+## Conclusion
+
+The project demonstrates how multiple cybersecurity concepts can be combined into one command-line training tool. It emphasizes safe testing, local report generation, and the need to interpret automated findings carefully.

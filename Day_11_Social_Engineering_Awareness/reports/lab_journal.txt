@@ -1,0 +1,33 @@
+DAY 11 — LAB JOURNAL
+
+**Project:** Social Engineering Awareness Training Module
+
+**Date:** 22 October 2026
+
+**Environment:** Windows, PowerShell, Python
+
+**Scope:** Local command-line training application
+
+**Objective:** Develop and test a scenario-based social engineering awareness quiz.
+
+**Activities Performed**
+
+1. Created the project structure.
+2. Implemented ten scenario-based questions.
+3. Added answer validation and immediate feedback.
+4. Added explanations for correct answers.
+5. Implemented score and percentage calculation.
+6. Saved results to `reports/quiz_results.json`.
+7. Completed a test run.
+
+**Results**
+
+The quiz completed all ten questions. The test score was 5/10 (50%). The JSON results file was generated successfully.
+
+**Ethical and Safety Notes**
+
+The quiz uses fictional situations. It does not send real phishing messages or collect sensitive credentials.
+
+**Conclusion**
+
+The project demonstrates a simple approach to security-awareness training using interactive questions, explanations, and score reporting.

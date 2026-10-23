@@ -1,0 +1,37 @@
+DAY 7 — PASSWORD ATTACKS AND DEFENSIVE RATE LIMITING
+
+**1. Objective**
+
+The objective was to understand how repeated password guesses work and how a rate limiter can reduce the risk of brute-force attacks.
+
+**2. Attacker Perspective**
+
+An attacker may attempt multiple passwords against an account until a correct password is found. Weak or reused passwords increase the risk of account compromise.
+
+**3. Defender Perspective**
+
+The Flask server tracks failed login attempts. After five failures within the configured time window, it temporarily blocks further attempts and returns HTTP 429.
+
+**4. Implementation**
+
+- Flask provides the local login endpoint.
+- Python Requests sends test login requests.
+- The server uses a fictional account.
+- The simulator records HTTP statuses and outcomes without saving password values.
+- All testing is restricted to localhost.
+
+**5. Results**
+
+The simulator received HTTP 401 for three incorrect passwords and HTTP 200 when the correct lab password was tested. In a separate test, five failed attempts triggered HTTP 429, and the next request remained blocked.
+
+**6. Limitations**
+
+This is an educational demonstration, not production-ready authentication. The rate-limit counters are stored in memory and reset when the server restarts. The example uses a single local client address and does not implement account lockout persistence, password hashing, multi-factor authentication, or distributed rate limiting.
+
+**7. Recommendations**
+
+Use strong, unique passwords; store passwords with a suitable password-hashing algorithm; implement carefully designed rate limits; enable multi-factor authentication; monitor repeated failures; and avoid revealing whether a username exists.
+
+**8. Ethical Scope**
+
+Testing was conducted against a local Flask server using fictional credentials. No real accounts, users, or external systems were targeted.

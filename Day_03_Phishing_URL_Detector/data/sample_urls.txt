@@ -1,0 +1,11 @@
+
+https://github.com
+https://www.python.org
+http://example.com
+https://example.com/login
+https://secure-account.example.com/verify
+http://192.0.2.10/login
+https://paypal-login.example.com/verify
+https://example.com@evil.example/login
+https://xn--pple-43d.com
+https://docs.python.org/3/

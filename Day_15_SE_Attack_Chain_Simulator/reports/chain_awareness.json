@@ -1,0 +1,10 @@
+{
+  "module": "Awareness Email Template",
+  "scenario": "banking",
+  "fictional": true,
+  "subject": "Subject: Suspicious banking notification",
+  "defensive_lesson": "Warning: Open your official banking app or contact your bank using a verified number.",
+  "delivery": "Not sent",
+  "generated_at_utc": "2026-10-23T06:21:34.923864+00:00",
+  "simulation": true
+}

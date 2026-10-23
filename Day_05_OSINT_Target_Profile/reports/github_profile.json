@@ -1,0 +1,61 @@
+{
+  "username": "EBEN-DATASCIENTIST1",
+  "name": "EBENEZER DABIRE",
+  "bio": null,
+  "company": null,
+  "location": null,
+  "public_repos": 8,
+  "top_languages_in_recent_repos": {
+    "Jupyter Notebook": 8
+  },
+  "recent_public_repositories": [
+    {
+      "name": "CodeAlpha_Sales_Prediction",
+      "language": "Jupyter Notebook",
+      "description": "CodeAlpha Data Science Internship - Task 4: Sales Prediction",
+      "url": "https://github.com/EBEN-DATASCIENTIST1/CodeAlpha_Sales_Prediction"
+    },
+    {
+      "name": "CodeAlpha_Car_Price_Prediction",
+      "language": "Jupyter Notebook",
+      "description": "CodeAlpha Data Science Internship - Task 3: Car Price Prediction",
+      "url": "https://github.com/EBEN-DATASCIENTIST1/CodeAlpha_Car_Price_Prediction"
+    },
+    {
+      "name": "CodeAlpha_Unemployment_Analysis",
+      "language": "Jupyter Notebook",
+      "description": "CodeAlpha Data Science Internship - Task 2: Unemployment Analysis",
+      "url": "https://github.com/EBEN-DATASCIENTIST1/CodeAlpha_Unemployment_Analysis"
+    },
+    {
+      "name": "CodeAlpha_Iris_Flower_Classification",
+      "language": "Jupyter Notebook",
+      "description": "CodeAlpha Data Science Internship - Task 1: Iris Flower Classification",
+      "url": "https://github.com/EBEN-DATASCIENTIST1/CodeAlpha_Iris_Flower_Classification"
+    },
+    {
+      "name": "CodeAlpha_Disease_Prediction",
+      "language": "Jupyter Notebook",
+      "description": "Machine learning models to predict diabetes risk using medical data.",
+      "url": "https://github.com/EBEN-DATASCIENTIST1/CodeAlpha_Disease_Prediction"
+    },
+    {
+      "name": "CodeAlpha_Handwritten_Character_Recognition",
+      "language": "Jupyter Notebook",
+      "description": "CNN model to recognize handwritten digits from images using the MNIST dataset.",
+      "url": "https://github.com/EBEN-DATASCIENTIST1/CodeAlpha_Handwritten_Character_Recognition"
+    },
+    {
+      "name": "CodeAlpha_Emotion_Recognition",
+      "language": "Jupyter Notebook",
+      "description": "Deep learning model to recognize human emotions from speech audio.",
+      "url": "https://github.com/EBEN-DATASCIENTIST1/CodeAlpha_Emotion_Recognition"
+    },
+    {
+      "name": "CodeAlpha_Credit_Scoring",
+      "language": "Jupyter Notebook",
+      "description": "Machine learning models to predict credit risk using customer financial data.",
+      "url": "https://github.com/EBEN-DATASCIENTIST1/CodeAlpha_Credit_Scoring"
+    }
+  ]
+}

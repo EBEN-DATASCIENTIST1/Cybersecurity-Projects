@@ -1,0 +1,23 @@
+
+=== SOCIAL ENGINEERING AWARENESS SCENARIO ===
+
+Organization: Banking
+Scenario: Banking
+Pretext: A message claims an account needs verification.
+
+[SIMULATION OPENER]
+A message claims that a bank account needs urgent verification.
+
+[PSYCHOLOGICAL TRIGGER]
+Urgency and fear of financial loss.
+
+[WARNING SIGN]
+The message requests banking credentials or directs you to an unfamiliar link.
+
+[SAFE RESPONSE]
+Open the official banking app or contact the bank using its verified number.
+
+[TRAINING LESSON]
+Pause before acting. Never disclose passwords or
+one-time authentication codes. Verify unexpected
+requests through an independent official channel.

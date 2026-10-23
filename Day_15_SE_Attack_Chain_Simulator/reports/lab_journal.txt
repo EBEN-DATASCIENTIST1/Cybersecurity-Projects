@@ -1,0 +1,39 @@
+DAY 15 — LAB JOURNAL
+
+**Project:** Social Engineering Attack Chain Simulator
+
+**Date:** 23 October 2026
+
+**Environment:** Windows, PowerShell, Python
+
+**Scope:** Ethical training demonstration with fictional profile and incident data
+
+**Objective:** Combine five cybersecurity modules behind one command-line menu.
+
+**Activities Performed**
+
+1. Created the project structure.
+2. Implemented the menu and report-writing helper.
+3. Added DNS resolution for a supplied domain.
+4. Added fictional profile exposure scoring.
+5. Added heuristic phishing URL scoring.
+6. Added a scenario-based awareness template.
+7. Added simulated incident-response recommendations.
+8. Tested the modules through the menu.
+9. Verified the OSINT JSON report.
+
+**Results**
+
+All five modules were exercised successfully. Each generated a JSON report. The DNS module resolved `example.com` during testing.
+
+**Ethical and Safety Notes**
+
+DNS resolution produces network traffic and should be restricted to authorized assessments. The remaining profile and incident examples use fictional data. No phishing emails were sent, credentials collected, or real containment actions executed.
+
+**Limitations**
+
+The integrated tool is an educational demonstration. It does not perform full OSINT reconnaissance, deliver phishing messages, exploit targets, or provide production-grade detection.
+
+**Conclusion**
+
+The project demonstrates modular integration, command-line interaction, basic security heuristics, and structured reporting.

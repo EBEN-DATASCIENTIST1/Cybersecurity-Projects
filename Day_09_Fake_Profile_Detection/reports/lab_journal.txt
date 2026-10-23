@@ -1,0 +1,32 @@
+DAY 9 — LAB JOURNAL
+
+**Project:** Social Media Impersonation and Fake Profile Detection
+
+**Date:** 22 October 2026
+
+**Environment:** Windows, PowerShell, Python
+
+**Scope:** Fictional profile data only
+
+**Objective:** Evaluate basic profile indicators using a Python scoring system.
+
+**Activities Performed**
+
+1. Created the Day 9 project structure.
+2. Implemented the profile-scoring function.
+3. Created five fictional profile samples.
+4. Ran the detector against the sample data.
+5. Generated `reports/profile_analysis.json`.
+6. Reviewed the scores and documented limitations.
+
+**Results**
+
+The program analyzed five profiles successfully and produced scores of 100, 0, 80, 20, and 25. It assigned HIGH risk to Samples A and C and LOW risk to Samples B, D, and E.
+
+**Ethical and Safety Notes**
+
+Only fictional profile data was used. No real accounts were scraped, contacted, or labeled as fake.
+
+**Conclusion**
+
+The project demonstrates basic heuristic profile-risk scoring. The results are indicators for further review, not definitive judgments about authenticity.

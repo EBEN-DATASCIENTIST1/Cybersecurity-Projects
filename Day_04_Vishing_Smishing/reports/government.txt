@@ -1,0 +1,23 @@
+
+=== SOCIAL ENGINEERING AWARENESS SCENARIO ===
+
+Organization: Government
+Scenario: Government
+Pretext: A caller claims urgent action is required.
+
+[SIMULATION OPENER]
+A caller claims that an official document requires immediate attention.
+
+[PSYCHOLOGICAL TRIGGER]
+Authority and fear of penalties.
+
+[WARNING SIGN]
+The caller demands immediate payment or sensitive personal information.
+
+[SAFE RESPONSE]
+Contact the relevant government department through its official website or published contact details.
+
+[TRAINING LESSON]
+Pause before acting. Never disclose passwords or
+one-time authentication codes. Verify unexpected
+requests through an independent official channel.

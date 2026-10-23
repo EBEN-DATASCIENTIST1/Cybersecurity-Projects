@@ -1,0 +1,29 @@
+SECURITY AWARENESS TRAINING EXAMPLE
+=====================================
+
+To: alex@example.test
+Subject: Training Example: Suspicious Banking Message
+
+Hello Alex Example,
+
+SCENARIO
+A message claims that a bank account requires urgent verification.
+
+PSYCHOLOGICAL TECHNIQUE
+Urgency and fear of financial loss
+
+WARNING SIGNS
+- Urgent requests involving money
+- Unfamiliar links or attachments
+- Requests for banking credentials or codes
+
+SAFE RESPONSE
+Use the official banking app or verified bank contact details.
+
+DEFENSIVE LESSON
+Do not disclose passwords or one-time authentication codes.
+Do not act under pressure. Verify unexpected requests using
+an independent, official communication channel.
+
+This is a fictional awareness-training example.
+Do not send it to real recipients.

@@ -1,0 +1,39 @@
+DAY 10 — BAITING AND WATERING HOLE ATTACK SIMULATION
+
+**1. Objective**
+
+To demonstrate how a local honeypot can record visits to a simulated bait link and explain defenses against baiting, watering-hole attacks, and drive-by downloads.
+
+**2. Attacker Perspective**
+
+Baiting uses an enticing physical device or digital offer to persuade someone to take an unsafe action. A watering-hole attack compromises a website frequently visited by a target group. Both approaches may be used to deliver malware or facilitate social engineering.
+
+**3. Defender Perspective**
+
+Users should avoid unknown USB devices, verify download sources, and avoid suspicious links. Organizations should use web filtering, endpoint protection, application control, timely patching, and security-awareness training.
+
+**4. Implementation**
+
+The Python honeypot runs on localhost and records the UTC timestamp, client IP address, requested path, and User-Agent. The log analyzer counts visits and paths and produces a JSON summary.
+
+**5. Results**
+
+The local test generated an HTTP 200 response and recorded one visit to `/bait-download`. The analyzer successfully generated `reports/visit_analysis.json` with one total visit and one unique path.
+
+**6. Defensive Recommendations**
+
+- Disable unnecessary AutoRun and restrict removable media.
+- Use endpoint protection and application allowlisting.
+- Filter suspicious websites and downloads.
+- Keep browsers, operating systems, and applications patched.
+- Verify links and downloads through trusted sources.
+- Monitor unusual activity while respecting privacy and data-retention requirements.
+- Train users to report suspicious devices, links, and websites.
+
+**7. Limitations**
+
+The honeypot records basic HTTP request metadata. A recorded visit does not establish malicious intent or prove that a device is compromised. The local demonstration does not emulate browser exploitation, malware delivery, or a compromised external website.
+
+**8. Ethical Scope**
+
+The server was tested on localhost using a manually initiated request. No external users or systems were targeted, and no files were downloaded or executed.

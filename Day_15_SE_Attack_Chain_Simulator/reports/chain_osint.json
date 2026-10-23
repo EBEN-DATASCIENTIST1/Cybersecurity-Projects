@@ -1,0 +1,12 @@
+{
+  "module": "Passive OSINT",
+  "domain": "example.com",
+  "scope": "Authorized domain only",
+  "dns_addresses": [
+    "104.20.23.154",
+    "172.66.147.243"
+  ],
+  "note": "DNS resolution only. No port scanning, exploitation, or service enumeration was performed.",
+  "generated_at_utc": "2026-10-23T06:20:46.189691+00:00",
+  "simulation": true
+}

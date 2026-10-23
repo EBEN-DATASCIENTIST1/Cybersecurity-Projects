@@ -1,0 +1,29 @@
+SECURITY AWARENESS TRAINING EXAMPLE
+=====================================
+
+To: alex@example.test
+Subject: Training Example: Unexpected IT Account Alert
+
+Hello Alex Example,
+
+SCENARIO
+A message claims to come from IT support and reports unusual account activity.
+
+PSYCHOLOGICAL TECHNIQUE
+Authority and fear of losing account access
+
+WARNING SIGNS
+- Unexpected account warnings
+- Pressure to act immediately
+- Requests for passwords or authentication codes
+
+SAFE RESPONSE
+Contact IT through the organization's official helpdesk.
+
+DEFENSIVE LESSON
+Do not disclose passwords or one-time authentication codes.
+Do not act under pressure. Verify unexpected requests using
+an independent, official communication channel.
+
+This is a fictional awareness-training example.
+Do not send it to real recipients.

@@ -1,0 +1,38 @@
+DAY 7 — LAB JOURNAL
+
+**Project:** Password Attacks and Defensive Rate Limiting
+
+**Date and Time:** 22/10/2026, 06:35, Chennai
+
+**Environment:** Windows, PowerShell, Python, Flask
+
+**Scope:** Localhost only — 127.0.0.1:5000
+
+**Objective:** Test a local login endpoint, simulate a small set of password guesses, and verify that repeated failures trigger rate limiting.
+
+**Activities Performed**
+
+1. Created a local Flask login server.
+2. Configured a maximum of five failed attempts and a 30-second block.
+3. Tested the login endpoint using PowerShell.
+4. Verified HTTP 401 responses for incorrect credentials.
+5. Verified HTTP 429 responses after repeated failed attempts.
+6. Ran the Python simulator against the local server.
+7. Generated `reports/simulation_report.json`.
+8. Created the defensive analysis report.
+
+**Results**
+
+- The server started successfully on 127.0.0.1:5000.
+- Four simulator attempts produced three HTTP 401 responses followed by one HTTP 200 response.
+- A separate rate-limit test produced HTTP 429 after five failed attempts.
+- The simulator stopped after successful authentication.
+- The JSON report recorded outcomes without storing password values.
+
+**Ethical and Safety Notes**
+
+All tests used a fictional lab account on localhost. No real accounts or external systems were targeted. No real credentials were collected.
+
+**Conclusion**
+
+The experiment demonstrated how repeated password guesses can be simulated in a controlled environment and how rate limiting can reduce repeated login attempts. The implementation is educational and requires additional controls before any production use.

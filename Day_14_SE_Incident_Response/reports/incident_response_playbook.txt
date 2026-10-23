@@ -1,0 +1,53 @@
+# DAY 14 — SOCIAL ENGINEERING INCIDENT RESPONSE PLAYBOOK
+
+## Objective
+
+Provide a structured response to suspected social engineering incidents while preserving evidence and minimizing damage.
+
+## 1. Preparation
+
+- Maintain an incident response contact list.
+- Establish procedures for reporting phishing emails and suspicious devices.
+- Ensure security logs are retained according to policy.
+- Define roles and escalation criteria.
+
+## 2. Identification
+
+- Review suspicious messages, login failures, account alerts, and email-rule changes.
+- Confirm the affected user, system, and incident type.
+- Record timestamps, relevant logs, and initial findings.
+- Assign an incident identifier and severity.
+
+## 3. Containment
+
+- Contact the authorized security or incident response team.
+- If compromise is suspected, consider account restrictions, credential resets, or session revocation through approved procedures.
+- Quarantine confirmed malicious emails using authorized security tools.
+- Isolate affected devices only when justified by the incident and organizational policy.
+
+## 4. Eradication
+
+- Remove unauthorized email rules and malicious messages.
+- Investigate suspicious account activity.
+- Remove identified malicious files or software using approved procedures.
+- Address the underlying cause, such as compromised credentials or unpatched software.
+
+## 5. Recovery
+
+- Restore affected accounts and systems safely.
+- Verify security controls and account settings.
+- Monitor for repeated suspicious activity.
+- Confirm recovery with the responsible security team.
+
+## 6. Lessons Learned
+
+- Document the timeline, impact, actions, and outcome.
+- Identify weaknesses in technical controls or user awareness.
+- Update detection rules and response procedures.
+- Provide additional training where appropriate.
+
+## Evidence and Communication
+
+Preserve relevant email headers, security logs, timestamps, and incident notes. Restrict access to sensitive evidence. Notify affected users and relevant stakeholders through approved communication channels.
+
+**Important:** This playbook is educational guidance. Real containment actions require appropriate authorization and must follow the organization's incident response policy.

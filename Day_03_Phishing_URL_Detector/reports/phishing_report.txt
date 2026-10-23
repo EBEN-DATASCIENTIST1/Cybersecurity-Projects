@@ -1,0 +1,49 @@
+URL: https://github.com
+Score: 0/100
+Risk: LOW
+Indicators: No configured warning indicators detected
+
+URL: https://www.python.org
+Score: 0/100
+Risk: LOW
+Indicators: No configured warning indicators detected
+
+URL: http://example.com
+Score: 20/100
+Risk: MEDIUM
+Indicators: Uses HTTP instead of HTTPS
+
+URL: https://example.com/login
+Score: 10/100
+Risk: LOW
+Indicators: Contains suspicious keywords: login
+
+URL: https://secure-account.example.com/verify
+Score: 30/100
+Risk: MEDIUM
+Indicators: Contains suspicious keywords: account, secure, verify
+
+URL: http://192.0.2.10/login
+Score: 55/100
+Risk: HIGH
+Indicators: Uses HTTP instead of HTTPS; Contains suspicious keywords: login; Uses an IPv4 address instead of a domain name
+
+URL: https://paypal-login.example.com/verify
+Score: 30/100
+Risk: MEDIUM
+Indicators: Contains suspicious keywords: login, paypal, verify
+
+URL: https://example.com@evil.example/login
+Score: 30/100
+Risk: MEDIUM
+Indicators: Contains suspicious keywords: login; Contains '@', which can obscure the destination
+
+URL: https://xn--pple-43d.com
+Score: 20/100
+Risk: MEDIUM
+Indicators: Hostname contains punycode
+
+URL: https://docs.python.org/3/
+Score: 0/100
+Risk: LOW
+Indicators: No configured warning indicators detected

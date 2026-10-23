@@ -1,0 +1,44 @@
+DAY 9 — SOCIAL MEDIA IMPERSONATION AND FAKE PROFILE DETECTION
+
+**1. Objective**
+
+To build a Python program that assigns heuristic risk scores to social media profiles using account age, follower-to-following ratio, profile-picture availability, post count, and biography characteristics.
+
+**2. Attacker Perspective**
+
+Fake profiles may be used to impersonate individuals, build trust, spread scams, or support social-engineering attacks. Indicators such as a recently created account, unusual following patterns, and incomplete profile information may warrant further review.
+
+**3. Defender Perspective**
+
+Users and security teams should evaluate multiple indicators, verify suspicious accounts through trusted channels, enable multi-factor authentication, and report suspected impersonation through the platform's official process.
+
+**4. Implementation**
+
+The Python program reads five fictional profiles from `data/sample_profiles.json`, calculates scores from 0 to 100, assigns risk categories, and saves results to `reports/profile_analysis.json`.
+
+**5. Results**
+
+- Sample A: 100 — HIGH
+- Sample B: 0 — LOW
+- Sample C: 80 — HIGH
+- Sample D: 20 — LOW
+- Sample E: 25 — LOW
+
+The results demonstrate how the selected heuristics influence each profile's score.
+
+**6. Limitations**
+
+The scoring rules are simple heuristics and have not been validated against a labeled dataset. A low score does not prove that an account is legitimate, and a high score does not prove impersonation. Some legitimate accounts may share these characteristics.
+
+**7. Recommendations**
+
+- Verify identity using trusted communication channels.
+- Review multiple indicators rather than relying on one signal.
+- Avoid clicking suspicious links or sharing credentials.
+- Report suspected impersonation to the relevant platform.
+- Minimize the collection and retention of personal information.
+- Validate scoring rules against an appropriate, consented dataset before operational use.
+
+**8. Ethical Scope**
+
+This demonstration uses fictional profile data. It does not scrape social media, contact account owners, or make automated accusations against real people.

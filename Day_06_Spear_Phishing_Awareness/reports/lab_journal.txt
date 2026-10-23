@@ -1,0 +1,25 @@
+# Day 6 Lab Journal
+
+Project: Spear Phishing Awareness Training
+
+Date and time: 19/10/2026, 1:40 pm, India
+
+Authorized scope: Local Python lab using fictional identities and the reserved example.test address.
+
+Objective: Generate three fictional email-awareness scenarios and document their defensive lessons.
+
+Actions performed:
+1. Created the Python email-template generator.
+2. Ran the main program.
+3. Generated the IT Support scenario.
+4. Generated the Banking scenario.
+5. Generated the Government scenario.
+6. Saved the text reports and JSON summary.
+
+Results: All three scenarios generated successfully. Four output files were produced.
+
+Network activity: No emails were sent and no real recipients were contacted.
+
+Data handling: Only fictional training data was used.
+
+Conclusion: The program worked as expected within the defined lab scope.
